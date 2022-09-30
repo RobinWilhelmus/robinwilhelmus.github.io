@@ -1,0 +1,67 @@
+project:
+  type: website
+ 
+website:
+  title: "Getting Blue Fingers"
+  page-navigation: true
+  
+  site-url: https://www.gettingbluefingers.com
+  repo-url: https://github.com/robinkoetsier
+  #repo-actions: [edit, issue]
+  sidebar:
+    #logo: "images/Boca.jpg"
+    logo: "images/Bocahex.png"
+    logo-alt: "Me at Boca"
+    tools: 
+      
+      - icon: spotify
+        href: https://open.spotify.com/show/6cSujEBBISBaUUc5POnjtx
+        text: "This site..."
+      - icon: github
+        href: https://github.com/robinkoetsier
+        text: "My Github"
+      - icon: twitter
+        href: https://twitter.com/RobinWilhelmus
+        text: "Personal Twitter"    
+      - icon: bar-chart-line
+        href: https://twitter.com/EredivisiePlots
+        text: "Eredivisieplots Twitter"    
+    pinned: true
+    style: "docked"
+    search: true
+    collapse-level: 1
+    align: center
+    contents:
+      - about.qmd
+      - work.qmd
+      - text: "Posts"
+        href: posts.qmd
+      - section: "Eredivisie stats"  
+        contents: 
+        - text: "xRank"
+          href: Other_pages/rank.Rmd
+        - text: "Shots"
+          href: Other_pages/Shots.Qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format: 
+  html:
+    theme:
+      light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
+    toc: false
+    #mainfont: Roboto
+    #sansfont: Roboto
+ 
+
+
+    
+    #css: styles.css
+    
+
+
+

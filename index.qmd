@@ -1,0 +1,13 @@
+---
+title: "Getting Blue Fingers"
+format: html
+editor: visual
+
+---
+
+### Welcome!
+
+
+My name is Robin Koetsier. This site serves as a personal site for my data and blog posts. (Very much still work in progress)
+
+I mostly write about Dutch football. On my Twitter profile you can follow me for visualizations of Eredivisie matches and other stuff. Besides that, I wrote some shiny apps that you can find under the link to my work stuff.
