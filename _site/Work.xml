@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Getting Blue Fingers</title>
+<link>https://www.gettingbluefingers.com/work.html</link>
+<atom:link href="https://www.gettingbluefingers.com/Work.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.1.251</generator>
+<lastBuildDate>Fri, 30 Sep 2022 15:44:12 GMT</lastBuildDate>
+<item>
+  <title>Podcasts</title>
+  <link>https://www.gettingbluefingers.com/Stuff/Podcasts.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>I am part of the dutch ‘Tussen de linies Podcast’ with Sander and Gijs.</p>
+<p>This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents. It provides an <code>{{&lt; fa &gt;}}</code> shortcode:</p>
+<ul>
+<li><p>Mandatory <code>&lt;icon-name&gt;</code>:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1">{{&lt; fa <span class="kw" style="color: #003B4F;">&lt;icon-name&gt;</span> &gt;}}</span></code></pre></div></li>
+<li><p>Optional <code>&lt;group&gt;</code>, <code>&lt;size=...&gt;</code>, and <code>&lt;title=...&gt;</code>:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1">{{&lt; fa <span class="kw" style="color: #003B4F;">&lt;group&gt;</span> <span class="kw" style="color: #003B4F;">&lt;icon-name&gt;</span> &lt;size=...&gt; &lt;title=...&gt; &gt;}}</span></code></pre></div></li>
+</ul>
+<p>For example: | Shortcode | Icon | | ————————————————– | —————————————– | | <code>{{&lt; fa thumbs-up &gt;}}</code> |  | | <code>{{&lt; fa folder &gt;}}</code> |  | | <code>{{&lt; fa chess-pawn &gt;}}</code> |  | | <code>{{&lt; fa brands bluetooth &gt;}}</code> |  | | <code>{{&lt; fa brands twitter size=2xl &gt;}}</code> (HTML only) |  | | <code>{{&lt; fa brands github size=5x &gt;}}</code> (HTML only) |  | | <code>{{&lt; fa battery-half size=Huge &gt;}}</code> |  | | <code>{{&lt; fa envelope title="An envelope" &gt;}}</code> |  |</p>
+
+
+
+ ]]></description>
+  <guid>https://www.gettingbluefingers.com/Stuff/Podcasts.html</guid>
+  <pubDate>Fri, 30 Sep 2022 15:44:12 GMT</pubDate>
+  <media:content url="https://www.tussendelinies.nl/wp-content/uploads/2020/10/cropped-logo-wit-new-1.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>
